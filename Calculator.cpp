@@ -1,5 +1,5 @@
 #include <iostream>
-#include "/projects/Cpp_Workspace/Calculator/Compute.hpp"
+#include "Compute.hpp"
 
 double a, b, rezult;
 int choice;
@@ -31,7 +31,7 @@ int main ()
         break;
     }
     case 4: {
-        rezult = compute.substract(a, b);
+        rezult = compute.divide(a, b);
         break;
     }
     default:

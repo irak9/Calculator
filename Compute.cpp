@@ -1,4 +1,4 @@
-#include "/projects/Cpp_Workspace/Calculator/Compute.hpp"
+#include "Compute.hpp"
 
 double Compute::add(double a, double b){
     return a + b;
